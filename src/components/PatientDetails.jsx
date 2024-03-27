@@ -1,13 +1,10 @@
 import React, { useState, useEffect } from "react";
 import axiosClient from "../axiosClient";
-import { useLocation } from "react-router-dom";
+import { useParams } from "react-router-dom";
 
 const PatientDetails = () => {
   const [patientDetails, setPatientDetails] = useState(null);
-  const location = useLocation();
-  const registrationId = new URLSearchParams(location.search).get(
-    "Registration_ID"
-  );
+  const { registrationId } = useParams();
 
   useEffect(() => {
     axiosClient

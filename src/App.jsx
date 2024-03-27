@@ -11,7 +11,10 @@ function App() {
           <Route index element={<Home />} />
           <Route path="/home" element={<Home />} />
           {/* Define route for PatientDetails */}
-          <Route path="/patient-details" element={<PatientDetails />} />
+          <Route
+            path="/patient-details/:registrationId"
+            element={<PatientDetails />}
+          />
         </Routes>
       </BrowserRouter>
     </div>

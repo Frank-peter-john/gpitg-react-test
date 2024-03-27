@@ -51,7 +51,7 @@ const Patients = () => {
               <th className="border bg-gray-200 px-4 py-2">Actions</th>
             </tr>
           </thead>
-          <tbody className="bg-white divide-y divide-gray-200">
+          <tbody className="bg-white divide-y divide-gray-200 ">
             {patients.map((patient) => (
               <tr key={patient.id}>
                 <td className="border px-4 py-2">{counter++}</td>
