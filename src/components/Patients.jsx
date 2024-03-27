@@ -63,7 +63,7 @@ const Patients = () => {
                 </td>
                 <td className="border px-4 py-2">{patient.Phone_Number}</td>
                 <td className="border px-4 py-2 text-justify">
-                  {patient.Registration_ID}
+                  {patient.guarantor_name ? patient.guarantor_name : "Null"}
                 </td>
 
                 <td className="border px-4 py-2">{patient.Date_Of_Birth}</td>
