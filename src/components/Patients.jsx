@@ -33,10 +33,9 @@ const Patients = () => {
   };
 
   return (
-    <div className="container mx-auto mt-8 text-[15px]">
-      <div className="flex justify-between">
-        <h2 className="text-2xl font-bold mb-4">List of patients</h2>
-      </div>
+    <div className="container mx-auto mt-8 text-[15px] p-10">
+      <h2 className="text-2xl font-bold mb-4  ">List of patients</h2>
+
       <div className="overflow-x-auto">
         <table className="min-w-full border border-gray-300 rounded-md ">
           <thead>

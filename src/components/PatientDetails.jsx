@@ -22,8 +22,8 @@ const PatientDetails = () => {
   }
 
   return (
-    <div className="container mx-auto mt-8">
-      <h2 className="text-2xl font-bold mb-4">Patient Details</h2>
+    <div className="container mx-auto mt-8 p-20">
+      <h2 className="text-center font-bold mb-4 text-3xl">Patient Details</h2>
       <div className="overflow-x-auto">
         <table className="min-w-full divide-y divide-gray-200">
           <tbody className="bg-white divide-y divide-gray-200">
